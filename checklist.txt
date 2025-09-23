@@ -1,0 +1,4 @@
+ground mounting holes or not?
+figure out jumpers on wbo module
+board thickness? (dielectric)
+jumpers for batch injection
