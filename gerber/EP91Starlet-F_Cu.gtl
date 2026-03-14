@@ -1,15 +1,163 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,8.0.9-8.0.9-0~ubuntu24.04.1*
-G04 #@! TF.CreationDate,2026-02-09T00:55:17+00:00*
+G04 #@! TF.CreationDate,2026-03-14T11:53:20+00:00*
 G04 #@! TF.ProjectId,EP91Starlet,45503931-5374-4617-926c-65742e6b6963,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Copper,L1,Top*
 G04 #@! TF.FilePolarity,Positive*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 8.0.9-8.0.9-0~ubuntu24.04.1) date 2026-02-09 00:55:17*
+G04 Created by KiCad (PCBNEW 8.0.9-8.0.9-0~ubuntu24.04.1) date 2026-03-14 11:53:20*
 %MOMM*%
 %LPD*%
 G01*
 G04 APERTURE LIST*
+G04 #@! TA.AperFunction,ComponentPad*
+%ADD10R,1.650000X1.650000*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,ComponentPad*
+%ADD11C,1.650000*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,ComponentPad*
+%ADD12C,5.250000*%
+G04 #@! TD*
 G04 APERTURE END LIST*
+D10*
+G04 #@! TO.P,J1,1,1*
+G04 #@! TO.N,unconnected-(J1-Pad1)*
+X-10968944Y120052000D03*
+D11*
+G04 #@! TO.P,J1,2,2*
+G04 #@! TO.N,unconnected-(J1-Pad2)*
+X-7968944Y120052000D03*
+G04 #@! TO.P,J1,3,3*
+G04 #@! TO.N,unconnected-(J1-Pad3)*
+X-4968944Y120052000D03*
+G04 #@! TO.P,J1,4,4*
+G04 #@! TO.N,unconnected-(J1-Pad4)*
+X-1968944Y120052000D03*
+G04 #@! TO.P,J1,5,5*
+G04 #@! TO.N,unconnected-(J1-Pad5)*
+X1031056Y120052000D03*
+G04 #@! TO.P,J1,6,6*
+G04 #@! TO.N,unconnected-(J1-Pad6)*
+X4031056Y120052000D03*
+G04 #@! TO.P,J1,7,7*
+G04 #@! TO.N,unconnected-(J1-Pad7)*
+X7031056Y120052000D03*
+G04 #@! TO.P,J1,8,8*
+G04 #@! TO.N,unconnected-(J1-Pad8)*
+X10031056Y120052000D03*
+G04 #@! TO.P,J1,9,9*
+G04 #@! TO.N,unconnected-(J1-Pad9)*
+X-10968944Y124552000D03*
+G04 #@! TO.P,J1,10,10*
+G04 #@! TO.N,unconnected-(J1-Pad10)*
+X-7968944Y124552000D03*
+G04 #@! TO.P,J1,11,11*
+G04 #@! TO.N,unconnected-(J1-Pad11)*
+X-4968944Y124552000D03*
+G04 #@! TO.P,J1,12,12*
+G04 #@! TO.N,unconnected-(J1-Pad12)*
+X-1968944Y124552000D03*
+G04 #@! TO.P,J1,13,13*
+G04 #@! TO.N,unconnected-(J1-Pad13)*
+X1031056Y124552000D03*
+G04 #@! TO.P,J1,14,14*
+G04 #@! TO.N,unconnected-(J1-Pad14)*
+X4031056Y124552000D03*
+G04 #@! TO.P,J1,15,15*
+G04 #@! TO.N,unconnected-(J1-Pad15)*
+X7031056Y124552000D03*
+G04 #@! TO.P,J1,16,16*
+G04 #@! TO.N,unconnected-(J1-Pad16)*
+X10031056Y124552000D03*
+G04 #@! TO.P,J1,101,101*
+G04 #@! TO.N,unconnected-(J1-Pad101)*
+X16031056Y120052000D03*
+G04 #@! TO.P,J1,102,102*
+G04 #@! TO.N,unconnected-(J1-Pad102)*
+X19481056Y120052000D03*
+G04 #@! TO.P,J1,103,103*
+G04 #@! TO.N,unconnected-(J1-Pad103)*
+X22581056Y120052000D03*
+G04 #@! TO.P,J1,104,104*
+G04 #@! TO.N,unconnected-(J1-Pad104)*
+X25581056Y120052000D03*
+G04 #@! TO.P,J1,105,105*
+G04 #@! TO.N,unconnected-(J1-Pad105)*
+X28581056Y120052000D03*
+G04 #@! TO.P,J1,106,106*
+G04 #@! TO.N,unconnected-(J1-Pad106)*
+X31581056Y120052000D03*
+G04 #@! TO.P,J1,107,107*
+G04 #@! TO.N,unconnected-(J1-Pad107)*
+X34581056Y120052000D03*
+G04 #@! TO.P,J1,108,108*
+G04 #@! TO.N,unconnected-(J1-Pad108)*
+X37581056Y120052000D03*
+G04 #@! TO.P,J1,109,109*
+G04 #@! TO.N,unconnected-(J1-Pad109)*
+X40581056Y120052000D03*
+G04 #@! TO.P,J1,110,110*
+G04 #@! TO.N,unconnected-(J1-Pad110)*
+X43581056Y120052000D03*
+G04 #@! TO.P,J1,111,111*
+G04 #@! TO.N,unconnected-(J1-Pad111)*
+X46681056Y120052000D03*
+G04 #@! TO.P,J1,112,112*
+G04 #@! TO.N,unconnected-(J1-Pad112)*
+X50181056Y120052000D03*
+G04 #@! TO.P,J1,113,113*
+G04 #@! TO.N,unconnected-(J1-Pad113)*
+X53681056Y120052000D03*
+G04 #@! TO.P,J1,114,114*
+G04 #@! TO.N,unconnected-(J1-Pad114)*
+X15981056Y124552000D03*
+G04 #@! TO.P,J1,115,115*
+G04 #@! TO.N,unconnected-(J1-Pad115)*
+X19481056Y124552000D03*
+G04 #@! TO.P,J1,116,116*
+G04 #@! TO.N,unconnected-(J1-Pad116)*
+X22581056Y124552000D03*
+G04 #@! TO.P,J1,117,117*
+G04 #@! TO.N,unconnected-(J1-Pad117)*
+X25581056Y124552000D03*
+G04 #@! TO.P,J1,118,118*
+G04 #@! TO.N,unconnected-(J1-Pad118)*
+X28581056Y124552000D03*
+G04 #@! TO.P,J1,119,119*
+G04 #@! TO.N,unconnected-(J1-Pad119)*
+X31581056Y124552000D03*
+G04 #@! TO.P,J1,120,120*
+G04 #@! TO.N,unconnected-(J1-Pad120)*
+X34581056Y124552000D03*
+G04 #@! TO.P,J1,121,121*
+G04 #@! TO.N,unconnected-(J1-Pad121)*
+X37581056Y124552000D03*
+G04 #@! TO.P,J1,122,122*
+G04 #@! TO.N,unconnected-(J1-Pad122)*
+X40581056Y124552000D03*
+G04 #@! TO.P,J1,123,123*
+G04 #@! TO.N,unconnected-(J1-Pad123)*
+X43581056Y124552000D03*
+G04 #@! TO.P,J1,124,124*
+G04 #@! TO.N,unconnected-(J1-Pad124)*
+X46681056Y124552000D03*
+G04 #@! TO.P,J1,125,125*
+G04 #@! TO.N,unconnected-(J1-Pad125)*
+X50181056Y124552000D03*
+G04 #@! TO.P,J1,126,126*
+G04 #@! TO.N,unconnected-(J1-Pad126)*
+X53681056Y124552000D03*
+D12*
+G04 #@! TO.P,J1,MH1,MH1*
+G04 #@! TO.N,unconnected-(J1-PadMH1)*
+X-11368944Y130252000D03*
+G04 #@! TO.P,J1,MH2,MH2*
+G04 #@! TO.N,unconnected-(J1-PadMH2)*
+X12881056Y130252000D03*
+G04 #@! TO.P,J1,MH3,MH3*
+G04 #@! TO.N,unconnected-(J1-PadMH3)*
+X54331056Y130252000D03*
+G04 #@! TD*
 M02*
