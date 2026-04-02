@@ -1387,7 +1387,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "hellen-one-common:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 191.77 78.74 0)
 			(effects
 				(font
@@ -1531,7 +1531,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "hellen-one-common:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 179.07 78.74 0)
 			(effects
 				(font
@@ -2110,7 +2110,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "hellen-one-common:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 144.78 96.52 0)
 			(effects
 				(font
@@ -2188,7 +2188,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "hellen-one-common:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 138.43 106.68 0)
 			(effects
 				(font
@@ -2266,7 +2266,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "hellen-one-common:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 153.67 106.68 0)
 			(effects
 				(font

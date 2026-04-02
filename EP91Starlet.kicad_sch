@@ -25,7 +25,7 @@
 					)
 				)
 			)
-			(property "Footprint" "1754466"
+			(property "Footprint" "TE-175446-6:1754466"
 				(at 21.59 -94.92 0)
 				(effects
 					(font
@@ -281,7 +281,7 @@
 				(pin passive line
 					(at 25.4 0 180)
 					(length 5.08)
-					(name "I0F"
+					(name "IGF"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11024,6 +11024,16 @@
 	)
 	(wire
 		(pts
+			(xy 307.34 110.49) (xy 320.04 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09a06676-141e-4593-869f-68fd1c0eb095")
+	)
+	(wire
+		(pts
 			(xy 252.73 101.6) (xy 255.27 101.6)
 		)
 		(stroke
@@ -12606,16 +12616,6 @@
 		)
 		(uuid "17c03b22-4d97-4cad-b0b8-b3387a6efd2b")
 	)
-	(label "LS2_HOT_OUT"
-		(at 320.04 113.03 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "183a028c-e512-4aca-b0e9-76f96caed258")
-	)
 	(label "MAP2"
 		(at 382.27 97.79 0)
 		(effects
@@ -12776,6 +12776,16 @@
 		)
 		(uuid "34ce7c1c-5c22-4e5d-9d35-d0c740e7813c")
 	)
+	(label "LS1_HOT_OUT"
+		(at 320.04 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "358cb768-1239-4fba-a0a7-e0dbbdbe9578")
+	)
 	(label "LS4_HOT_IN"
 		(at 67.31 58.42 0)
 		(effects
@@ -12866,16 +12876,6 @@
 		)
 		(uuid "42d8ac06-53ff-47f2-bc55-93ed5de0d0f6")
 	)
-	(label "LS3_HOT_OUT"
-		(at 320.04 110.49 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "432eb3cd-adf6-4428-8948-d4ab16004752")
-	)
 	(label "CAN1_LOW"
 		(at 382.27 133.35 0)
 		(effects
@@ -12945,16 +12945,6 @@
 			(justify right bottom)
 		)
 		(uuid "4934fb5b-d8e3-41bf-9c9c-8d86d40fcbfc")
-	)
-	(label "LS4_HOT_OUT"
-		(at 320.04 107.95 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4a34334a-90ee-4042-8a28-340b3d19b982")
 	)
 	(label "TPS2"
 		(at 190.5 147.32 180)
@@ -13045,6 +13035,16 @@
 			(justify left bottom)
 		)
 		(uuid "51402d89-c7bb-44c7-9e28-216d8dba24c0")
+	)
+	(label "LS4_HOT_OUT"
+		(at 320.04 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "520540bd-3ba8-4601-af73-8d8ba2b7e10c")
 	)
 	(label "D2_IN"
 		(at 369.57 120.65 180)
@@ -13356,16 +13356,6 @@
 		)
 		(uuid "78749d27-e184-414c-b104-571729960ff1")
 	)
-	(label "LS1_HOT_OUT"
-		(at 320.04 115.57 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "78d6e999-009a-4874-a68e-4312c98bb779")
-	)
 	(label "IACOPEN_IN"
 		(at 82.55 139.7 0)
 		(effects
@@ -13435,6 +13425,16 @@
 			(justify right bottom)
 		)
 		(uuid "8784c96b-352e-4d06-9736-2590ff470294")
+	)
+	(label "LS3_HOT_OUT"
+		(at 320.04 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "88c64069-fd10-462b-a380-e5a39a2a7af2")
 	)
 	(label "PPS"
 		(at 382.27 102.87 0)
@@ -13876,6 +13876,16 @@
 		)
 		(uuid "c8dfc1b9-9f26-4111-b607-1bea9dd24af8")
 	)
+	(label "LS2_HOT_OUT"
+		(at 320.04 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cab11027-222b-4f3b-bae2-87b0151b1630")
+	)
 	(label "LS2_HOT_IN"
 		(at 67.31 29.21 0)
 		(effects
@@ -14265,7 +14275,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hellen-one-can:can"
+		(property "Footprint" "hellen-one-can-0.1:can"
 			(at 276.86 15.24 0)
 			(effects
 				(font
@@ -15667,6 +15677,74 @@
 		)
 	)
 	(symbol
+		(lib_id "hellen-one-common:+12V_RAW")
+		(at 320.04 107.95 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37d0322a-ac2b-471d-86f7-2f958485af9a")
+		(property "Reference" "#PWR65"
+			(at 323.85 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V_RAW"
+			(at 316.23 107.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 320.04 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 320.04 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V_RAW\""
+			(at 320.04 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3bf4a5b4-40cd-4ce0-80a3-6ebd068f0572")
+		)
+		(instances
+			(project "EP91Starlet"
+				(path "/10fbc709-889c-4565-8161-129ca9f0b73f"
+					(reference "#PWR65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 69.85 199.39 0)
 		(unit 1)
@@ -16119,7 +16197,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hellen-one-mega-mcu144:mega-mcu144"
+		(property "Footprint" "hellen-one-mega-mcu144-0.7:mega-mcu144"
 			(at 190.5 20.32 0)
 			(effects
 				(font
@@ -17001,7 +17079,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hellen-one-wbo:wbo"
+		(property "Footprint" "hellen-one-wbo-0.6:wbo"
 			(at 267.97 317.5 0)
 			(effects
 				(font
@@ -18306,6 +18384,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 307.34 110.49 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6e87680c-8f7f-4e7d-8360-760a036c5c83")
+		(property "Reference" "#PWR67"
+			(at 300.99 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 302.26 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 307.34 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 307.34 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 307.34 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fed9ee49-3c19-43ef-a956-efb838805ad5")
+		)
+		(instances
+			(project "EP91Starlet"
+				(path "/10fbc709-889c-4565-8161-129ca9f0b73f"
+					(reference "#PWR67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 81.28 111.76 0)
 		(unit 1)
@@ -18806,7 +18950,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hellen-one-vr-max9924:vr-max9924"
+		(property "Footprint" "hellen-one-vr-max9924-0.3:vr-max9924"
 			(at 63.5 254 0)
 			(effects
 				(font
@@ -19322,72 +19466,6 @@
 			(project "EP91Starlet"
 				(path "/10fbc709-889c-4565-8161-129ca9f0b73f"
 					(reference "#PWR49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 320.04 120.65 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "953af316-c312-4e40-99fc-7b33dca39f96")
-		(property "Reference" "#PWR67"
-			(at 313.69 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 314.96 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 320.04 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 320.04 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 320.04 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b12c68e3-36c7-452c-84a4-ba0a0377d8d5")
-		)
-		(instances
-			(project "EP91Starlet"
-				(path "/10fbc709-889c-4565-8161-129ca9f0b73f"
-					(reference "#PWR67")
 					(unit 1)
 				)
 			)
@@ -21169,74 +21247,6 @@
 	)
 	(symbol
 		(lib_id "hellen-one-common:+12V_RAW")
-		(at 320.04 118.11 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bfc8df0b-144f-4d67-bf4d-235bffa3fe4a")
-		(property "Reference" "#PWR65"
-			(at 323.85 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V_RAW"
-			(at 316.23 118.1099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 320.04 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 320.04 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V_RAW\""
-			(at 320.04 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "999000ea-2d82-48ff-bdee-2a426bf62958")
-		)
-		(instances
-			(project "EP91Starlet"
-				(path "/10fbc709-889c-4565-8161-129ca9f0b73f"
-					(reference "#PWR65")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "hellen-one-common:+12V_RAW")
 		(at 38.1 215.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21327,7 +21337,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hellen-one-vr-discrete:vr-discrete"
+		(property "Footprint" "hellen-one-vr-discrete-0.5:vr-discrete"
 			(at 63.5 275.59 0)
 			(effects
 				(font
@@ -22450,7 +22460,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hellen-one-knock:knock"
+		(property "Footprint" "hellen-one-knock-0.2:knock"
 			(at 120.65 323.85 0)
 			(effects
 				(font
