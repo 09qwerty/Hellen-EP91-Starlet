@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/runner/work/Hellen-EP91-Starlet/Hellen-EP91-Starlet/EP91Starlet.kicad_sch</source>
-    <date>2026-04-02T00:30:09+0000</date>
+    <date>2026-04-02T04:24:59+0000</date>
     <tool>Eeschema 8.0.9-8.0.9-0~ubuntu24.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -411,7 +411,7 @@
     </comp>
     <comp ref="M1">
       <value>Module-mega-mcu144-0.7</value>
-      <footprint>hellen-one-mega-mcu144:mega-mcu144</footprint>
+      <footprint>hellen-one-mega-mcu144-0.7:mega-mcu144</footprint>
       <description>Hellen One MEGA_MCU144 Module</description>
       <fields>
         <field name="PUBLISHER">qwerty-off</field>
@@ -424,7 +424,7 @@
         <field name="SUPPLIER 3">LCSC</field>
         <field name="SUPPLIER PART NUMBER 3"/>
         <field name="TYPE">Module</field>
-        <field name="Footprint">hellen-one-mega-mcu144:mega-mcu144</field>
+        <field name="Footprint">hellen-one-mega-mcu144-0.7:mega-mcu144</field>
         <field name="Datasheet"/>
         <field name="Description">Hellen One MEGA_MCU144 Module</field>
       </fields>
@@ -447,9 +447,9 @@
     </comp>
     <comp ref="M2">
       <value>Module-vr-max9924-0.1</value>
-      <footprint>hellen-one-vr-max9924:vr-max9924</footprint>
+      <footprint>hellen-one-vr-max9924-0.3:vr-max9924</footprint>
       <fields>
-        <field name="Footprint">hellen-one-vr-max9924:vr-max9924</field>
+        <field name="Footprint">hellen-one-vr-max9924-0.3:vr-max9924</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -461,9 +461,9 @@
     </comp>
     <comp ref="M3">
       <value>Module-vr-discrete-0.5</value>
-      <footprint>hellen-one-vr-discrete:vr-discrete</footprint>
+      <footprint>hellen-one-vr-discrete-0.5:vr-discrete</footprint>
       <fields>
-        <field name="Footprint">hellen-one-vr-discrete:vr-discrete</field>
+        <field name="Footprint">hellen-one-vr-discrete-0.5:vr-discrete</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -490,9 +490,9 @@
     </comp>
     <comp ref="M5">
       <value>Module-wbo-0.6</value>
-      <footprint>hellen-one-wbo:wbo</footprint>
+      <footprint>hellen-one-wbo-0.6:wbo</footprint>
       <fields>
-        <field name="Footprint">hellen-one-wbo:wbo</field>
+        <field name="Footprint">hellen-one-wbo-0.6:wbo</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -504,10 +504,10 @@
     </comp>
     <comp ref="M6">
       <value>Module-knock-0.2</value>
-      <footprint>hellen-one-knock:knock</footprint>
+      <footprint>hellen-one-knock-0.2:knock</footprint>
       <description>Hellen-One Knock Pre-amplifier Module</description>
       <fields>
-        <field name="Footprint">hellen-one-knock:knock</field>
+        <field name="Footprint">hellen-one-knock-0.2:knock</field>
         <field name="Datasheet"/>
         <field name="Description">Hellen-One Knock Pre-amplifier Module</field>
       </fields>
@@ -519,10 +519,10 @@
     </comp>
     <comp ref="M7">
       <value>Module-can-0.1</value>
-      <footprint>hellen-one-can:can</footprint>
+      <footprint>hellen-one-can-0.1:can</footprint>
       <description>Hellen-One CAN Module</description>
       <fields>
-        <field name="Footprint">hellen-one-can:can</field>
+        <field name="Footprint">hellen-one-can-0.1:can</field>
         <field name="Datasheet"/>
         <field name="Description">Hellen-One CAN Module</field>
       </fields>
@@ -874,10 +874,10 @@
     </comp>
     <comp ref="C1">
       <value>10n</value>
-      <footprint>hellen-one-common:C0603</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="LCSC">C57112</field>
-        <field name="Footprint">hellen-one-common:C0603</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -890,10 +890,10 @@
     </comp>
     <comp ref="C2">
       <value>100n</value>
-      <footprint>hellen-one-common:C0603</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="LCSC">C14663</field>
-        <field name="Footprint">hellen-one-common:C0603</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -906,10 +906,10 @@
     </comp>
     <comp ref="C3">
       <value>10n</value>
-      <footprint>hellen-one-common:C0603</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="LCSC">C57112</field>
-        <field name="Footprint">hellen-one-common:C0603</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -922,10 +922,10 @@
     </comp>
     <comp ref="C4">
       <value>100n</value>
-      <footprint>hellen-one-common:C0603</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="LCSC">C14663</field>
-        <field name="Footprint">hellen-one-common:C0603</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -938,10 +938,10 @@
     </comp>
     <comp ref="C5">
       <value>1u</value>
-      <footprint>hellen-one-common:C0603</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="LCSC">C15849</field>
-        <field name="Footprint">hellen-one-common:C0603</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1028,10 +1028,10 @@
     </comp>
     <comp ref="C6">
       <value>10u</value>
-      <footprint>hellen-one-common:C0805</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="LCSC">C15850</field>
-        <field name="Footprint">hellen-one-common:C0805</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1044,10 +1044,10 @@
     </comp>
     <comp ref="C7">
       <value>10u</value>
-      <footprint>hellen-one-common:C0805</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="LCSC">C15850</field>
-        <field name="Footprint">hellen-one-common:C0805</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1060,10 +1060,10 @@
     </comp>
     <comp ref="C8">
       <value>10u</value>
-      <footprint>hellen-one-common:C0805</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="LCSC">C15850</field>
-        <field name="Footprint">hellen-one-common:C0805</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1076,10 +1076,10 @@
     </comp>
     <comp ref="C9">
       <value>10u</value>
-      <footprint>hellen-one-common:C0805</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="LCSC">C15850</field>
-        <field name="Footprint">hellen-one-common:C0805</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1092,10 +1092,10 @@
     </comp>
     <comp ref="C10">
       <value>10u</value>
-      <footprint>hellen-one-common:C0805</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="LCSC">C15850</field>
-        <field name="Footprint">hellen-one-common:C0805</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1108,10 +1108,10 @@
     </comp>
     <comp ref="C11">
       <value>10u</value>
-      <footprint>hellen-one-common:C0805</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="LCSC">C15850</field>
-        <field name="Footprint">hellen-one-common:C0805</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1124,10 +1124,10 @@
     </comp>
     <comp ref="C12">
       <value>10u</value>
-      <footprint>hellen-one-common:C0805</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="LCSC">C15850</field>
-        <field name="Footprint">hellen-one-common:C0805</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1140,10 +1140,10 @@
     </comp>
     <comp ref="C13">
       <value>10u</value>
-      <footprint>hellen-one-common:C0805</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="LCSC">C15850</field>
-        <field name="Footprint">hellen-one-common:C0805</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1156,10 +1156,10 @@
     </comp>
     <comp ref="C14">
       <value>10u</value>
-      <footprint>hellen-one-common:C0805</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="LCSC">C15850</field>
-        <field name="Footprint">hellen-one-common:C0805</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1172,10 +1172,10 @@
     </comp>
     <comp ref="C15">
       <value>10u</value>
-      <footprint>hellen-one-common:C0805</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="LCSC">C15850</field>
-        <field name="Footprint">hellen-one-common:C0805</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1188,10 +1188,10 @@
     </comp>
     <comp ref="C16">
       <value>100n</value>
-      <footprint>hellen-one-common:C0603</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="LCSC">C14663</field>
-        <field name="Footprint">hellen-one-common:C0603</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1204,10 +1204,10 @@
     </comp>
     <comp ref="C17">
       <value>10n</value>
-      <footprint>hellen-one-common:C0603</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="LCSC">C57112</field>
-        <field name="Footprint">hellen-one-common:C0603</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1220,10 +1220,10 @@
     </comp>
     <comp ref="C18">
       <value>10n</value>
-      <footprint>hellen-one-common:C0603</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="LCSC">C57112</field>
-        <field name="Footprint">hellen-one-common:C0603</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1234,44 +1234,12 @@
       <sheetpath names="/DC Driver 1/" tstamps="/a3a2cbd2-512c-466e-b8f9-d557249ac1e6/"/>
       <tstamps>60d7f8e3-3088-48c2-909b-936446b26795</tstamps>
     </comp>
-    <comp ref="P1">
-      <value>Pad</value>
-      <footprint>hellen-one-common:PAD-TH</footprint>
-      <fields>
-        <field name="Footprint">hellen-one-common:PAD-TH</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value="DC Driver 1"/>
-      <property name="Sheetfile" value="DC_MOTOR_0.1.kicad_sch"/>
-      <property name="ki_keywords" value="connector"/>
-      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
-      <sheetpath names="/DC Driver 1/" tstamps="/a3a2cbd2-512c-466e-b8f9-d557249ac1e6/"/>
-      <tstamps>49f3f71b-9452-416d-890b-767090153673</tstamps>
-    </comp>
-    <comp ref="P2">
-      <value>Pad</value>
-      <footprint>hellen-one-common:PAD-TH</footprint>
-      <fields>
-        <field name="Footprint">hellen-one-common:PAD-TH</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value="DC Driver 1"/>
-      <property name="Sheetfile" value="DC_MOTOR_0.1.kicad_sch"/>
-      <property name="ki_keywords" value="connector"/>
-      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
-      <sheetpath names="/DC Driver 1/" tstamps="/a3a2cbd2-512c-466e-b8f9-d557249ac1e6/"/>
-      <tstamps>2e79bef4-94d7-4a81-a792-e66eed057b36</tstamps>
-    </comp>
     <comp ref="R15">
       <value>4.7k</value>
-      <footprint>hellen-one-common:R0603</footprint>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
         <field name="LCSC">C23162</field>
-        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1329,7 +1297,7 @@
       <fields>
         <field name="Reference">J1</field>
         <field name="Value">175446-6</field>
-        <field name="Footprint">1754466</field>
+        <field name="Footprint">TE-175446-6:1754466</field>
         <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=175446&amp;DocType=Customer+Drawing&amp;DocLang=Japanese</field>
         <field name="Description">Body Features: Primary Product Color Gray | Configuration Features: PCB Mount Orientation Right Angle | Number of Positions 42 | Number of Rows 2 | Contact Features: Contact Type Tab | Contact Mating Area Plating Material Tin (Sn) | Contact Mating Area Plating Material Gold (Au) | Housing Features: Centerline (Pitch) 3 MM | Centerline (Pitch) .118 INCH | Centerline (Pitch) 3.5 MM | Centerline (Pitch) .137 INCH | Mechanical Attachment: PCB Mount Alignment With | PCB Mount Retention Without | Connector Mounti</field>
         <field name="Height">22.2</field>
@@ -1362,7 +1330,7 @@
         <pin num="105" name="THA" type="passive"/>
         <pin num="106" name="IGT" type="passive"/>
         <pin num="107" name="IGF" type="passive"/>
-        <pin num="108" name="I0F" type="passive"/>
+        <pin num="108" name="IGF" type="passive"/>
         <pin num="109" name="NE-" type="passive"/>
         <pin num="110" name="OX" type="passive"/>
         <pin num="111" name="STA" type="passive"/>
@@ -1735,23 +1703,6 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="hellen-one-common" part="Pad">
-      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Connector*:*_1x??_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">Pad</field>
-        <field name="Footprint">hellen-one-common:PAD-TH</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
-      </fields>
-      <pins>
-        <pin num="1" name="Pin_1" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="hellen-one-common" part="Res">
       <description>Resistor</description>
       <fields>
@@ -2097,7 +2048,7 @@
       <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="F1" pin="1" pintype="passive"/>
       <node ref="J1" pin="9" pinfunction="+B" pintype="passive"/>
-      <node ref="J9" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="M4" pin="V2" pinfunction="IN_VIGN" pintype="passive"/>
       <node ref="M4" pin="V3" pinfunction="V12_RAW" pintype="passive"/>
     </net>
@@ -2214,7 +2165,6 @@
     </net>
     <net code="36" name="/DC Driver 1/DIR">
       <node ref="M1" pin="E6" pinfunction="OUT_IO3" pintype="passive"/>
-      <node ref="P2" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="U8" pin="1" pinfunction="DIR" pintype="passive"/>
     </net>
     <net code="37" name="/DC Driver 1/DIS">
@@ -2224,7 +2174,6 @@
     </net>
     <net code="38" name="/DC Driver 1/PWM">
       <node ref="M1" pin="E14" pinfunction="OUT_PWM5" pintype="passive"/>
-      <node ref="P1" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="U8" pin="12" pinfunction="PWM" pintype="passive"/>
     </net>
     <net code="39" name="/DC Driver 1/PWR">
@@ -2326,7 +2275,7 @@
     </net>
     <net code="58" name="/LS1_HOT_OUT">
       <node ref="J1" pin="112" pinfunction="#10" pintype="passive"/>
-      <node ref="J9" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J9" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="U1" pin="8" pinfunction="DRAIN1" pintype="input"/>
     </net>
     <net code="59" name="/LS1_IN">
@@ -2345,7 +2294,7 @@
     </net>
     <net code="62" name="/LS2_HOT_OUT">
       <node ref="J1" pin="125" pinfunction="#20" pintype="passive"/>
-      <node ref="J9" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J9" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="U1" pin="6" pinfunction="DRAIN2" pintype="input"/>
     </net>
     <net code="63" name="/LS2_IN">
@@ -2365,7 +2314,7 @@
       <node ref="U2" pin="1" pinfunction="IN1" pintype="input"/>
     </net>
     <net code="66" name="/LS3_HOT_OUT">
-      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J9" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="U2" pin="8" pinfunction="DRAIN1" pintype="input"/>
     </net>
     <net code="67" name="/LS3_IN">
@@ -2383,7 +2332,7 @@
       <node ref="U2" pin="3" pinfunction="IN2" pintype="input"/>
     </net>
     <net code="70" name="/LS4_HOT_OUT">
-      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J9" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U2" pin="6" pinfunction="DRAIN2" pintype="input"/>
     </net>
     <net code="71" name="/LS4_IN">
@@ -2530,7 +2479,7 @@
       <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J7" pin="28" pinfunction="Pin_28" pintype="passive"/>
       <node ref="J7" pin="30" pinfunction="Pin_30" pintype="passive"/>
-      <node ref="J9" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="M1" pin="G" pinfunction="GND" pintype="passive"/>
       <node ref="M2" pin="G" pinfunction="GND" pintype="passive"/>
       <node ref="M3" pin="G" pinfunction="GND" pintype="passive"/>
@@ -2649,11 +2598,11 @@
     <net code="118" name="unconnected-(J1-ELS3-Pad122)">
       <node ref="J1" pin="122" pinfunction="ELS3" pintype="passive"/>
     </net>
-    <net code="119" name="unconnected-(J1-I0F-Pad108)">
-      <node ref="J1" pin="108" pinfunction="I0F" pintype="passive+no_connect"/>
-    </net>
-    <net code="120" name="unconnected-(J1-IGF-Pad107)">
+    <net code="119" name="unconnected-(J1-IGF-Pad107)">
       <node ref="J1" pin="107" pinfunction="IGF" pintype="passive+no_connect"/>
+    </net>
+    <net code="120" name="unconnected-(J1-IGF-Pad108)">
+      <node ref="J1" pin="108" pinfunction="IGF" pintype="passive+no_connect"/>
     </net>
     <net code="121" name="unconnected-(J1-IPV-Pad123)">
       <node ref="J1" pin="123" pinfunction="IPV" pintype="passive"/>
