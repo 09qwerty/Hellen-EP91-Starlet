@@ -13030,16 +13030,6 @@
 		)
 		(uuid "3ddd5786-3281-494d-98be-799467c3ce9f")
 	)
-	(label "CAN1-"
-		(at 382.27 120.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3e8aaef4-a2d1-4ab0-b086-715c3912f6c0")
-	)
 	(label "LS3_IN"
 		(at 80.01 231.14 0)
 		(effects
@@ -13049,16 +13039,6 @@
 			(justify left bottom)
 		)
 		(uuid "3eaccab4-9245-4ad5-89c7-ed4719eea704")
-	)
-	(label "CAN1+"
-		(at 382.27 118.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3ed25b7c-9f52-44df-8800-e96cd3a50d44")
 	)
 	(label "VREF_KNOCK"
 		(at 189.23 241.3 180)
@@ -13540,6 +13520,16 @@
 		)
 		(uuid "78749d27-e184-414c-b104-571729960ff1")
 	)
+	(label "CAN1+"
+		(at 382.27 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c4f0a60-c6e5-4419-93a8-a9d65ef0ec80")
+	)
 	(label "RES2"
 		(at 369.57 123.19 180)
 		(effects
@@ -13649,6 +13639,16 @@
 			(justify right bottom)
 		)
 		(uuid "8e500d41-5a49-4eee-a656-5717bf05f960")
+	)
+	(label "CAN1-"
+		(at 382.27 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e795bc9-ede8-4b3d-af53-ba8a51a0f681")
 	)
 	(label "IDLESWITCH"
 		(at 372.11 215.9 0)
