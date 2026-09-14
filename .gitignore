@@ -3,6 +3,7 @@
 *.bak
 *.lck
 fp-info-cache
+.history/
 
 # project local?
 *.kicad_prl

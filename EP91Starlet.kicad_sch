@@ -11137,7 +11137,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 106.68) (xy 170.18 93.98)
+			(xy 170.18 93.98) (xy 170.18 127)
 		)
 		(stroke
 			(width 0)
@@ -11357,6 +11357,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 88.9) (xy 168.91 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26de2f87-b12c-49b7-a1e2-1c7dbe29a7f3")
+	)
+	(wire
+		(pts
 			(xy 68.58 194.31) (xy 78.74 194.31)
 		)
 		(stroke
@@ -11544,6 +11554,26 @@
 			(type default)
 		)
 		(uuid "465caee1-ffc0-4af1-bf49-2b739f301c66")
+	)
+	(wire
+		(pts
+			(xy 168.91 88.9) (xy 168.91 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47eeaebf-9960-43ca-b37b-16b1ce4f70ec")
+	)
+	(wire
+		(pts
+			(xy 172.72 91.44) (xy 172.72 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "486a7e5e-d05b-4dc4-96f0-dc8aeaf1e4a6")
 	)
 	(wire
 		(pts
@@ -11887,16 +11917,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 101.6) (xy 172.72 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ef4ff5a-e45a-4cad-896e-e9678a7f48ef")
-	)
-	(wire
-		(pts
 			(xy 68.58 231.14) (xy 78.74 231.14)
 		)
 		(stroke
@@ -12077,6 +12097,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 127) (xy 190.5 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c063876-769f-42be-b221-ce98d7527291")
+	)
+	(wire
+		(pts
 			(xy 382.27 105.41) (xy 382.27 107.95)
 		)
 		(stroke
@@ -12097,16 +12127,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 101.6) (xy 172.72 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3671e44-ea03-4925-9ca7-f546b7bc8443")
-	)
-	(wire
-		(pts
 			(xy 147.32 88.9) (xy 146.05 88.9)
 		)
 		(stroke
@@ -12124,6 +12144,16 @@
 			(type default)
 		)
 		(uuid "a54328d5-8b36-4e79-b859-0212b8290201")
+	)
+	(wire
+		(pts
+			(xy 168.91 83.82) (xy 190.5 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9cd3488-dd04-4721-84b9-1003219d902a")
 	)
 	(wire
 		(pts
@@ -12174,16 +12204,6 @@
 			(type default)
 		)
 		(uuid "b52b675a-9f4b-4223-a96a-a2172ec201b2")
-	)
-	(wire
-		(pts
-			(xy 165.1 88.9) (xy 190.5 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b61c739e-3655-4541-bbc1-7e87a1c7bfa2")
 	)
 	(wire
 		(pts
@@ -12254,16 +12274,6 @@
 			(type default)
 		)
 		(uuid "c25a2056-9950-448c-87b4-8b26e5681f4a")
-	)
-	(wire
-		(pts
-			(xy 190.5 106.68) (xy 170.18 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2c5ba11-8a3f-46a5-af5c-67ff005a7561")
 	)
 	(wire
 		(pts
@@ -12354,6 +12364,16 @@
 			(type default)
 		)
 		(uuid "d83e1cfd-c680-42af-a2be-f90d866f957b")
+	)
+	(wire
+		(pts
+			(xy 172.72 124.46) (xy 190.5 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da2bc329-1942-44fa-aa84-45565fd64dcb")
 	)
 	(wire
 		(pts
@@ -12879,6 +12899,16 @@
 		)
 		(uuid "17c03b22-4d97-4cad-b0b8-b3387a6efd2b")
 	)
+	(label "CHECKENGINE_IN"
+		(at 190.5 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "17c2ed34-30db-424f-91e0-e8df971cbcf8")
+	)
 	(label "5V_OUT7"
 		(at 190.5 38.1 180)
 		(effects
@@ -13159,6 +13189,16 @@
 		)
 		(uuid "3cc7ed95-863d-4ec0-bb06-3d6e1b566b24")
 	)
+	(label "FANRELAY_IN"
+		(at 190.5 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3d8dac1b-082f-4f53-97b9-5d6d2eb57943")
+	)
 	(label "VIGN"
 		(at 190.5 254 180)
 		(effects
@@ -13409,16 +13449,6 @@
 		)
 		(uuid "5cc1306a-0321-481f-9d76-6fbb3a552d3d")
 	)
-	(label "IACOPEN_IN"
-		(at 190.5 73.66 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5e490ce7-b859-4005-a28d-96d1a4ebffad")
-	)
 	(label "LS4_HOT_OUT"
 		(at 27.94 58.42 180)
 		(effects
@@ -13449,15 +13479,15 @@
 		)
 		(uuid "6468af47-eb70-429a-808a-71e732e12e89")
 	)
-	(label "FANRELAY_IN"
-		(at 190.5 104.14 180)
+	(label "FUELRELAY_IN"
+		(at 190.5 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "64ba8d16-9255-404e-8230-89a1f5eec528")
+		(uuid "64f36e90-96b3-4c61-a3e8-d034d3187737")
 	)
 	(label "VBAT"
 		(at 78.74 326.39 0)
@@ -13539,16 +13569,6 @@
 		)
 		(uuid "700cf766-6e2d-4ac0-8c49-106d523bd596")
 	)
-	(label "FUELRELAY_IN"
-		(at 190.5 96.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "70dd02fd-55ed-44c6-aac9-50c8590b4449")
-	)
 	(label "AT2"
 		(at 369.57 135.89 180)
 		(effects
@@ -13628,16 +13648,6 @@
 			(justify left bottom)
 		)
 		(uuid "768eb146-3361-4fa8-a1b9-f9d3464c1ae1")
-	)
-	(label "CHECKENGINE_IN"
-		(at 190.5 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "78749d27-e184-414c-b104-571729960ff1")
 	)
 	(label "CAN1+"
 		(at 382.27 113.03 0)
@@ -13849,16 +13859,6 @@
 		)
 		(uuid "97c521b8-65ea-4299-ae04-d525ace34d80")
 	)
-	(label "IACCLOSE_IN"
-		(at 190.5 71.12 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9921dd91-66db-4a97-bd16-0389462f8c7e")
-	)
 	(label "DC1+"
 		(at 147.32 91.44 180)
 		(effects
@@ -14008,6 +14008,16 @@
 			(justify right bottom)
 		)
 		(uuid "b2323a95-d43c-47e8-9fdb-ad06470758ee")
+	)
+	(label "IACOPEN_IN"
+		(at 190.5 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b266cf9f-916a-4abd-bd5c-3d2ac0d7bc42")
 	)
 	(label "LS2_IN"
 		(at 190.5 58.42 180)
@@ -14308,6 +14318,16 @@
 			(justify right bottom)
 		)
 		(uuid "e610ced8-69d8-4e51-b3d5-9f7875db84ce")
+	)
+	(label "IACCLOSE_IN"
+		(at 190.5 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e7b66109-651f-4b17-a378-633f6e14af74")
 	)
 	(label "FANRELAY_OUT"
 		(at 372.11 218.44 0)
